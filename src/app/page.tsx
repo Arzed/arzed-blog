@@ -34,6 +34,11 @@ export default function Home() {
         <p className="mt-2 leading-8">
           I&apos;m Muhammad Irsyad, an Frontend Developer
         </p>
+        <>
+          <p>
+            Some <em>asterisks</em> for emphasis.
+          </p>
+        </>
       </div>
       <div className="mt-10 space-y-12 border-t border-gray-200 pt-10 dark:border-gray-700">
         {posts.map((post, idx) => (

@@ -9,16 +9,15 @@ import './global.css'
 import Image from 'next/image'
 
 const meta = {
-  title: 'Hunter Chang - Website',
+  title: 'Arzed Blog',
   description:
-    'Sleep deprived father. FE Engineer in China. Lover of Ramen and Kpop',
-  image: `${WEBSITE_HOST_URL}/og-preview.jpg`,
+    'Student from Indonesia University. Frontend Developer. Cat Lover',
 }
 
 export const metadata: Metadata = {
   title: {
     default: meta.title,
-    template: '%s | Hunter Chang',
+    template: '%s | Arzed Blog',
   },
   description: meta.description,
   openGraph: {
@@ -26,18 +25,12 @@ export const metadata: Metadata = {
     description: meta.description,
     url: WEBSITE_HOST_URL,
     siteName: meta.title,
-    locale: 'en-US',
+    locale: 'id-ID',
     type: 'website',
-    images: [
-      {
-        url: meta.image,
-      },
-    ],
   },
   twitter: {
     title: meta.title,
     description: meta.description,
-    images: meta.image,
     card: 'summary_large_image',
   },
   alternates: {
